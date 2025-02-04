@@ -165,3 +165,4 @@ Route::delete('/admin/projects/{id}', [AdminController::class, 'destroyProject']
 Route::get('/projects/category/{category}', [BaseController::class, 'showProjectsByCategory'])->name('projects.category');
 Route::get('/project/{id}', [BaseController::class, 'showProjectDetails'])->name('project.details');
 
+

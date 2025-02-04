@@ -185,15 +185,15 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <img class="logo-image" src="asset/img/logo name.png" alt="Logo" style="height: 50px;">
+            
               <p>Company Junction, Nooranad,<br>
                 pallikkal (po), Adoor.
                 <br><br>
-                <strong>Phone:</strong> 9567022418<br>
-                <strong>Email:</strong> info@technibs.co.in<br>
+                <strong>Phone:</strong> 9400772516<br>
+                <strong>Email:</strong> sales@technibs.co.in<br>
               </p>
               <div class="social-links d-flex mt-3">
-                <a href="https://wa.me/9567022418" class="d-flex align-items-center justify-content-center"
+                <a href="https://wa.me/+919400772516" class="d-flex align-items-center justify-content-center"
                   target="_blank">
                   <i class="bi bi-whatsapp"></i>
                 </a>
@@ -201,14 +201,14 @@
                   class="d-flex align-items-center justify-content-center" target="_blank">
                   <i class="bi bi-facebook"></i>
                 </a>
-                <a href="https://instagram.com/yourprofile" class="d-flex align-items-center justify-content-center"
+                <!-- <a href="https://instagram.com/yourprofile" class="d-flex align-items-center justify-content-center"
                   target="_blank">
                   <i class="bi bi-instagram"></i>
                 </a>
                 <a href="https://linkedin.com/in/yourprofile" class="d-flex align-items-center justify-content-center"
                   target="_blank">
                   <i class="bi bi-linkedin"></i>
-                </a>
+                </a> -->
 
               </div>
             </div>

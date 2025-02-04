@@ -251,11 +251,11 @@ public function storeServices(Request $request)
         $request->validate([
             'expertiseTitle' => 'required|string|max:255',
             'expertiseDescription' => 'required|string',
-            'expertiseImage1' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage2' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage3' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage4' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage5' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
+            'expertiseImage1' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage2' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage3' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage4' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage5' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
         ]);
     
         // Create a new expertise entry
@@ -311,11 +311,11 @@ public function storeServices(Request $request)
         $request->validate([
             'expertiseTitle' => 'required|string|max:255',
             'expertiseDescription' => 'required|string',
-            'expertiseImage1' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage2' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage3' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage4' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
-            'expertiseImage5' => 'nullable|image|mimes:jpg,jpeg,png|max:5000',
+            'expertiseImage1' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage2' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage3' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage4' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
+            'expertiseImage5' => 'nullable|image|mimes:jpg,jpeg,png,webp,avif|max:5000',
         ]);
     
         // Find the expertise entry by ID
@@ -432,7 +432,7 @@ public function storeServices(Request $request)
 
     // Validate the request to ensure that an image is provided and meets the file type and size restrictions
     $request->validate([
-        'background_image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Use the correct field name here
+        'background_image' => 'required|image|mimes:jpeg,png,jpg,gif,svg,webp,avif|max:5000', // Use the correct field name here
     ]);
 
     // Check if an image was uploaded
